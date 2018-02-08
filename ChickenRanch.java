@@ -19,6 +19,7 @@ public class ChickenRanch {
     if(numOfEggs < 0) die("negative area ???");
     numOfCartons = numOfEggs / 12;
     eggsRemaining = numOfEggs % 12;
+    if (eggsRemaining % 12 != 0) numOfCartons ++;
     System.out.println(numOfCartons + " cartons and " +eggsRemaining+ " eggs remaining");
     }
 
