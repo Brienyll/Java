@@ -2,9 +2,9 @@
 /*Input, with a prompt, the number of eggs laid at our chicken ranch. Output, with explanatory text,
 the number of egg cartons needed. Assume an egg carton holds 12 eggs. If the number of eggs is not a multiple of 12,
 then  the  last  egg  carton  will  only  be  partially  filled.  An  example  run  of  your  program  (with  the  input  in boldface)
-might go asEggs: 1009 cartons(In  this  case,  the  first  8  cartons  are  filled,  and  the  ninth  carton  holds  the  remaining  4  eggs.)
-The  number  of eggs  and  the  number  of  cartons  are  both  always  integers.  Your  program  only  has  to  handle  one  number,
-no looping required.
+might go asEggs: 1009 cartons(In  this  case,  the  first  8  cartons  are  filled,  and  the  ninth  carton  holds  the  remaining  4
+eggs.) The  number  of eggs  and  the  number  of  cartons  are  both  always  integers.  Your  program  only  has  to  handle  one  
+number, no looping required.
 */
 import java.util.*;
 
