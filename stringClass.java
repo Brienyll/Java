@@ -46,3 +46,14 @@ public class StringClass {
         System.out.println(digitSequence("8920189"));
     }
 }
+public static void show(int[] a) {
+    System.out.print("[" + a.length + "]:");
+	for(int i = 0; i < a.length; i++) System.out.print((i==0 ? "  " : ", ") + a[i]);
+	System.out.println();
+}
+public static void show(String[] a){
+    System.out.print("[" + a.length + "]:");
+	for(int i = 0; i < a.length; i++)System.out.print((i==0 ? "  " : ", ") +"\"" + a[i] + "\"");
+	System.out.println();
+}
+} // class A
