@@ -1,9 +1,5 @@
 //CS 552, HW #3, Francell Angeles
 /*
-Input, with prompt, the base and height of a triangle (might be fractional).
-Output the area of the triangle. According to my geometry book, A = B*H / 2
-where A is area, B is base, and H is height. An example run of your program might go as
-Base: 2.2  	Height: 5 Area is 5.5
 
 */
 
