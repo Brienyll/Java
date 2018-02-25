@@ -1,7 +1,7 @@
 //CS 552, HW #3, Francell Angeles
 /*
-* Notes about strings
-*/
+ * Notes about strings
+ */
 
 import java.util.*;
 import java.lang.*;
