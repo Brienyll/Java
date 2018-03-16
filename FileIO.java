@@ -17,7 +17,6 @@ public class IO{
 			   new BufferedWriter(
 			   new FileWriter(outName)));
 
-
 	while(fin.hasNextLine()){
 		String rex = "[a-z]+";
 		Pattern pattern = Pattern.compile(rex);
