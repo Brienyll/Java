@@ -29,7 +29,7 @@ while(fin.hasNextLine()){
 	String alphabet = "abcdefghijklmnopqrstuvwxyz";
 	    for (int i = 0; i < line.length(); i++) {
 
-			fout.print(alphabet.charAt(r.nextInt(line.length())));;
+			fout.print(alphabet.charAt(r.nextInt(line.length())));
         }
 }
 
