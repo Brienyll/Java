@@ -1,11 +1,5 @@
 import java.util.Scanner;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Random;
 
 public class IO{
@@ -20,7 +14,7 @@ System.out.print("name of output file: ");
 String outName = in.nextLine();
 PrintWriter fout = new PrintWriter(
 		   new BufferedWriter(
-		   new FileWriter(    // IOException, destructive
+		   new FileWriter(    // IOException, deductive
 		   outName)));
 
 while(fin.hasNextLine()){
