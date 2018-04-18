@@ -31,3 +31,28 @@ public class Largest {
             System.exit(1);
     }
 }
+
+public class Main {
+  public static void main(String[] arg){
+    double ret[] = stats(new double[]{0, -1, -2, 0, 3, 2, 4, 0});
+    System.out.println("neg ave: " + ret[0]);
+    System.out.println("neg max: " + ret[1]);
+    System.out.println("pos min: " + ret[2]);
+    System.out.println("pos ave: " + ret[3]);
+  } // main
+  public static double[] stats( double[] ar){
+    double[] ret = new double[4];
+    double maxNeg = 0, minPos = 0;// #'s closest to 0 on either side
+    int countNeg = 0, countPos = 0; // # of negative & positive #'s
+    double sumNeg = 0, sumPos = 0; // sum of neg's & pos's
+    for(double x: ar)if(x > 0){ 
+      if(countPos == 0 || minPos > x)minPos = x;
+      countPos++;
+      sumPos += x;
+    }else if(x < 0){if(countNeg == 0 || maxNeg < x)maxNeg = x;
+    countNeg++;
+    sumNeg += x;
+    }
+    return new double[]{sumNeg/countNeg,maxNeg, minPos,sumPos/countPos};
+  } // stats}
+}
